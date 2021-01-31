@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body,
+        html {
+            color: white;
+            font-family: 'lato', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        body {
+            background-image: url(https://blog.ikimaru.com/pic/4726343_full-4k-tech-wallpaper-iphone-71-4k-animated-wallpapers-on-wallpaperplay.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: bottom;
+        }
+
+        .center {
+            background-color: rgba(0, 0, 0, 0.7);
+            height: 70vh;
+            width: 50vh;
+            text-align: center;
+            border-radius: 5px;
+            position: absolute;
+            object-fit: cover;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        h1 {
+            color: wheat;
+        }
+
+        .content h2,
+        p {
+            font-weight: lighter;
+            letter-spacing: 1px;
+            width: 70%;
+            margin: 10px auto;
+        }
+
+        .content h2 {
+            font-weight: 400;
+        }
+
+        .content h3 {
+            margin-top: 20px;
+        }
+
+        div.social i {
+            padding: 0 10px;
+            font-size: 30px;
+            color: rgba(255, 255, 255, 0.6);
+            transition: 0.4s;
+        }
+
+        div.social i:hover {
+            color: rgba(255, 255, 255, 1);
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 100%;
+            position: fixed;
+            top: 0cm;
+        }
+  
+        li {
+            float: left;
+        }
+  
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 19px 50px;
+            text-decoration: none;
+        }
+  
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: #111;
+        }
+
+        .container {
+        width: 100%; /* Full width */
+        
+        }
+
+        .skills {
+        text-align: right; /* Right-align text */
+        padding-top: 5px; /* Add top padding */
+        padding-bottom: 10px; /* Add bottom padding */
+        color: white; /* White text color */
+        }
+
+        .python {width: 80%; background-color: #4CAF50;} /* Green */
+        .css {width: 40%; background-color: #2196F3;} /* Blue */
+        .js {width: 15%; background-color: #f44336;} /* Red */
+        .html {width: 60%; background-color: #808080;} /* Dark Grey */
+        .ps {width:70%; background-color: azure;}
+
+
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="education.html"><i class="fas fa-book-reader"></i>Education</a></li>
+        <li><a href="contact-me.html"><i class="fa fa-fw fa-envelope"></i>Contact Me</a></li>
+    </ul>
+    <div class="center">
+        <h1>Skills</h1>
+        <div class="content">
+            <p>PYTHON</p>
+            <div class="container">
+                <div class="skills python">80%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="container">
+                <div class="skills css">40%</div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="container">
+                <div class="skills js">15%</div>
+            </div>
+
+            <p>HTML</p>
+            <div class="container">
+                <div class="skills html">60%</div>
+            </div>
+
+            <p>PROBLEM SOLVING</p>
+            <div class="container">
+                <div class="skills ps">70%</div>
+            </div>
+        
+        </div>
+    </div>
+            
+
+</body>
+
+</html>
